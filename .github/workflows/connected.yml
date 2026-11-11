@@ -1,0 +1,77 @@
+name: GAP to Lean
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  connected:
+    name: GAP to Lean (${{ matrix.group }})
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [psl13, psl17, a7]
+    env:
+      LEAN_ROOT: ${{ github.workspace }}/.ci-lean
+      GAP_EXECUTABLE: ${{ github.workspace }}/.ci-gap/gap
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Fetch GAP 4.16.1
+        uses: actions/checkout@v5
+        with:
+          repository: gap-system/gap
+          ref: v4.16.1
+          path: .ci-gap
+          persist-credentials: false
+
+      - name: Build GAP
+        working-directory: .ci-gap
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y autoconf build-essential libgmp-dev libreadline-dev zlib1g-dev
+          ./autogen.sh
+          ./configure
+          make -j2
+
+      - name: Fetch Mathlib
+        uses: actions/checkout@v5
+        with:
+          repository: leanprover-community/mathlib4
+          ref: 021c46bdd042f67b538b9f9871d556a93713a9a9
+          path: .ci-lean/mathlib4
+          persist-credentials: false
+
+      - name: Install Lean and fetch Mathlib cache
+        uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: .ci-lean/mathlib4
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-mathlib-cache: 'true'
+
+      - name: Check toolchain matches certificate sources
+        run: cmp lean/lean-toolchain .ci-lean/mathlib4/lean-toolchain
+
+      - name: Enumerate, construct Farey data, generate and compile certificates
+        run: bash tools/check-connected.sh '${{ matrix.group }}'
+
+      - name: Upload fresh data, certificates and compiler receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gap-to-lean-${{ matrix.group }}
+          path: .ci-runs/${{ matrix.group }}/
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 14
