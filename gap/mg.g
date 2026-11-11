@@ -1,5 +1,5 @@
 # Components of M(G) (Chen, Appendix B): SL2(Z)-orbits on Epi(F2,G)/Inn(G), and their invariants.
-# GAP port of tools/engine.mjs. Right action: S: (x,y) -> (y, x^-1),  T: (x,y) -> (x, x*y).
+# Right action: S: (x,y) -> (y, x^-1),  T: (x,y) -> (x, x*y).
 # Needs export-lib.g loaded first (EmitJSON).
 
 # Generating pairs up to conjugacy, with the S and T action on them.
