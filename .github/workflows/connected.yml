@@ -41,6 +41,12 @@ jobs:
           ./autogen.sh
           ./configure
           make -j2
+          make bootstrap-pkg-minimal
+
+      - name: Check GAP starts with required packages
+        run: |
+          "$GAP_EXECUTABLE" -q -b --quitonbreak \
+            -c 'Print("GAP version: ", GAPInfo.Version, "\n"); QUIT;'
 
       - name: Fetch Mathlib
         uses: actions/checkout@v5

@@ -18,7 +18,20 @@ gap_bin="${GAP_EXECUTABLE:-gap}"
 mkdir -p "$out/input" "$out/actions"
 export PYTHONDONTWRITEBYTECODE=1
 
-"$gap_bin" -q -b --quitonbreak "gap/run-table5-$slug.g" > "$out/enumeration.log" 2>&1
+run_gap() {
+  local source_file="$1" log_file="$2" result
+  echo "GAP: $source_file"
+  if "$gap_bin" -q -b --quitonbreak "$source_file" > "$log_file" 2>&1; then
+    return 0
+  else
+    result=$?
+    echo "GAP failed (exit $result): $log_file" >&2
+    cat "$log_file" >&2
+    return "$result"
+  fi
+}
+
+run_gap "gap/run-table5-$slug.g" "$out/enumeration.log"
 python3 - "$out/enumeration.log" "$out/input/gap-table5-$slug.jsonl" "$label" <<'PY'
 import json, sys
 from pathlib import Path
@@ -30,7 +43,7 @@ PY
 
 python3 tools/export-table5-farey.py --groups "$slug" \
   --input-dir "$out/input" --output-dir "$out/farey-data"
-"$gap_bin" -q -b --quitonbreak "$out/farey-data/export.g" > "$out/farey.log" 2>&1
+run_gap "$out/farey-data/export.g" "$out/farey.log"
 python3 - "$out/farey.log" "$out/farey-data" <<'PY'
 import json, sys
 from pathlib import Path
