@@ -1,0 +1,249 @@
+{
+  "gap_wall_seconds": 7.8,
+  "gap_group_cpu_seconds": {
+    "SmallGroup(144,31)": 0.161,
+    "SmallGroup(144,32)": 0.223,
+    "SmallGroup(144,33)": 0.178,
+    "SmallGroup(144,36)": 0.603,
+    "SmallGroup(144,109)": 0.171,
+    "SmallGroup(144,115)": 0.146,
+    "SmallGroup(144,116)": 0.15,
+    "SmallGroup(144,118)": 0.13,
+    "SmallGroup(144,121)": 0.285,
+    "SmallGroup(144,122)": 0.289,
+    "SmallGroup(144,123)": 0.36,
+    "SmallGroup(144,127)": 0.212,
+    "SmallGroup(144,128)": 0.194,
+    "SmallGroup(144,182)": 0.066,
+    "SmallGroup(144,183)": 0.116,
+    "SmallGroup(144,188)": 0.342,
+    "SmallGroup(150,5)": 0.121,
+    "SmallGroup(162,10)": 0.239,
+    "SmallGroup(162,14)": 0.228,
+    "SmallGroup(168,22)": 0.794,
+    "SmallGroup(168,45)": 0.491
+  },
+  "lean_group_wall_seconds": {
+    "SmallGroup(144,31)": 27.389,
+    "SmallGroup(144,32)": 10.236,
+    "SmallGroup(144,33)": 10.482,
+    "SmallGroup(144,36)": 81.567,
+    "SmallGroup(144,109)": 10.817,
+    "SmallGroup(144,115)": 10.988,
+    "SmallGroup(144,116)": 11.083,
+    "SmallGroup(144,118)": 11.347,
+    "SmallGroup(144,121)": 21.986,
+    "SmallGroup(144,122)": 22.461,
+    "SmallGroup(144,123)": 21.047,
+    "SmallGroup(144,127)": 11.154,
+    "SmallGroup(144,128)": 11.307,
+    "SmallGroup(144,182)": 9.571,
+    "SmallGroup(144,183)": 8.98,
+    "SmallGroup(144,188)": 12.89,
+    "SmallGroup(150,5)": 10.477,
+    "SmallGroup(162,10)": 18.257,
+    "SmallGroup(162,14)": 21.814,
+    "SmallGroup(168,22)": 164.284,
+    "SmallGroup(168,45)": 39.022
+  },
+  "lean_total_wall_seconds": 547.159,
+  "components": 29,
+  "obstructions": 51,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "measurement": "Single fresh sequential Lean invocation per new group; wall time includes Lake startup, Mathlib imports, kernel checking, and the axiom audit. Previously checked sources were reused by hash and excluded from these timings. GAP group times are CPU time; GAP total includes startup.",
+  "groups": [
+    {
+      "group": "SmallGroup(144,31)",
+      "file": "G144_31.lean",
+      "components": 3,
+      "max_degree": 36,
+      "obstructions": 3,
+      "lean_wall_seconds": 27.389,
+      "gap_cpu_seconds": 0.161
+    },
+    {
+      "group": "SmallGroup(144,32)",
+      "file": "G144_32.lean",
+      "components": 3,
+      "max_degree": 36,
+      "obstructions": 6,
+      "lean_wall_seconds": 10.236,
+      "gap_cpu_seconds": 0.223
+    },
+    {
+      "group": "SmallGroup(144,33)",
+      "file": "G144_33.lean",
+      "components": 3,
+      "max_degree": 36,
+      "obstructions": 6,
+      "lean_wall_seconds": 10.482,
+      "gap_cpu_seconds": 0.178
+    },
+    {
+      "group": "SmallGroup(144,36)",
+      "file": "G144_36.lean",
+      "components": 1,
+      "max_degree": 864,
+      "obstructions": 2,
+      "lean_wall_seconds": 81.567,
+      "gap_cpu_seconds": 0.603
+    },
+    {
+      "group": "SmallGroup(144,109)",
+      "file": "G144_109.lean",
+      "components": 3,
+      "max_degree": 18,
+      "obstructions": 3,
+      "lean_wall_seconds": 10.817,
+      "gap_cpu_seconds": 0.171
+    },
+    {
+      "group": "SmallGroup(144,115)",
+      "file": "G144_115.lean",
+      "components": 1,
+      "max_degree": 96,
+      "obstructions": 2,
+      "lean_wall_seconds": 10.988,
+      "gap_cpu_seconds": 0.146
+    },
+    {
+      "group": "SmallGroup(144,116)",
+      "file": "G144_116.lean",
+      "components": 1,
+      "max_degree": 96,
+      "obstructions": 2,
+      "lean_wall_seconds": 11.083,
+      "gap_cpu_seconds": 0.15
+    },
+    {
+      "group": "SmallGroup(144,118)",
+      "file": "G144_118.lean",
+      "components": 1,
+      "max_degree": 96,
+      "obstructions": 2,
+      "lean_wall_seconds": 11.347,
+      "gap_cpu_seconds": 0.13
+    },
+    {
+      "group": "SmallGroup(144,121)",
+      "file": "G144_121.lean",
+      "components": 1,
+      "max_degree": 288,
+      "obstructions": 2,
+      "lean_wall_seconds": 21.986,
+      "gap_cpu_seconds": 0.285
+    },
+    {
+      "group": "SmallGroup(144,122)",
+      "file": "G144_122.lean",
+      "components": 1,
+      "max_degree": 288,
+      "obstructions": 2,
+      "lean_wall_seconds": 22.461,
+      "gap_cpu_seconds": 0.289
+    },
+    {
+      "group": "SmallGroup(144,123)",
+      "file": "G144_123.lean",
+      "components": 1,
+      "max_degree": 288,
+      "obstructions": 2,
+      "lean_wall_seconds": 21.047,
+      "gap_cpu_seconds": 0.36
+    },
+    {
+      "group": "SmallGroup(144,127)",
+      "file": "G144_127.lean",
+      "components": 1,
+      "max_degree": 96,
+      "obstructions": 2,
+      "lean_wall_seconds": 11.154,
+      "gap_cpu_seconds": 0.212
+    },
+    {
+      "group": "SmallGroup(144,128)",
+      "file": "G144_128.lean",
+      "components": 1,
+      "max_degree": 96,
+      "obstructions": 2,
+      "lean_wall_seconds": 11.307,
+      "gap_cpu_seconds": 0.194
+    },
+    {
+      "group": "SmallGroup(144,182)",
+      "file": "G144_182.lean",
+      "components": 1,
+      "max_degree": 48,
+      "obstructions": 2,
+      "lean_wall_seconds": 9.571,
+      "gap_cpu_seconds": 0.066
+    },
+    {
+      "group": "SmallGroup(144,183)",
+      "file": "G144_183.lean",
+      "components": 1,
+      "max_degree": 18,
+      "obstructions": 1,
+      "lean_wall_seconds": 8.98,
+      "gap_cpu_seconds": 0.116
+    },
+    {
+      "group": "SmallGroup(144,188)",
+      "file": "G144_188.lean",
+      "components": 1,
+      "max_degree": 144,
+      "obstructions": 2,
+      "lean_wall_seconds": 12.89,
+      "gap_cpu_seconds": 0.342
+    },
+    {
+      "group": "SmallGroup(150,5)",
+      "file": "G150_5.lean",
+      "components": 1,
+      "max_degree": 72,
+      "obstructions": 2,
+      "lean_wall_seconds": 10.477,
+      "gap_cpu_seconds": 0.121
+    },
+    {
+      "group": "SmallGroup(162,10)",
+      "file": "G162_10.lean",
+      "components": 1,
+      "max_degree": 216,
+      "obstructions": 2,
+      "lean_wall_seconds": 18.257,
+      "gap_cpu_seconds": 0.239
+    },
+    {
+      "group": "SmallGroup(162,14)",
+      "file": "G162_14.lean",
+      "components": 1,
+      "max_degree": 216,
+      "obstructions": 2,
+      "lean_wall_seconds": 21.814,
+      "gap_cpu_seconds": 0.228
+    },
+    {
+      "group": "SmallGroup(168,22)",
+      "file": "G168_22.lean",
+      "components": 1,
+      "max_degree": 1536,
+      "obstructions": 2,
+      "lean_wall_seconds": 164.284,
+      "gap_cpu_seconds": 0.794
+    },
+    {
+      "group": "SmallGroup(168,45)",
+      "file": "G168_45.lean",
+      "components": 1,
+      "max_degree": 432,
+      "obstructions": 2,
+      "lean_wall_seconds": 39.022,
+      "gap_cpu_seconds": 0.491
+    }
+  ]
+}

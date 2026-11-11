@@ -1,0 +1,33 @@
+{
+  "checked_groups": 3,
+  "checked_components": 56,
+  "checked_obstructions": 92,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "groups": [
+    {
+      "group": "PSL(2,17)",
+      "components": 17,
+      "obstructions": 25,
+      "bundle_seconds": 378.403,
+      "audit": "lean-psl17-audit.md"
+    },
+    {
+      "group": "A7",
+      "components": 26,
+      "obstructions": 48,
+      "bundle_seconds": 251.026,
+      "audit": "lean-a7-audit.md"
+    },
+    {
+      "group": "PSL(2,13)",
+      "components": 13,
+      "obstructions": 19,
+      "bundle_seconds": 76.673,
+      "audit": "lean-psl13-audit.md"
+    }
+  ]
+}

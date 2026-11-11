@@ -1,0 +1,146 @@
+'ChenS4.S_squared' depends on axioms: [propext]
+'ChenS4.ST_cubed' depends on axioms: [propext]
+'ChenS4.T_bijective' depends on axioms: [propext, Quot.sound]
+'ChenS4.transitive_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChenS4.elliptic_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChenS4.cusp_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChenS4.genus_arithmetic' does not depend on any axioms
+'ChenS4.cusp_lcm' does not depend on any axioms
+'ChenS4.same_matrix' depends on axioms: [propext]
+'ChenS4.different_points' depends on axioms: [propext]
+'ChenS4.no_factor_mod12' depends on axioms: [propext]
+Axiom audit passed for all 86 ChenS4 declarations; allowed: [propext, Classical.choice, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:106:45: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G6_1_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:194:45: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G12_3_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:282:45: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G24_12_C0.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G24_12_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:377:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G24_3_C0.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G24_3_C0.no_factor_mod24' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G24_3_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:479:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G48_28_C0.no_factor_mod24' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_28_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:574:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G48_29_C0.no_factor_mod24' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_29_C0.no_factor_mod48' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_29_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:676:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G48_30_C0.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_30_C0.no_factor_mod24' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_30_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:778:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G48_32_C0.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_32_C0.no_factor_mod24' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G48_32_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:880:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G60_5_C0.no_factor_mod30' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G60_5_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:975:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G60_5_C1.no_factor_mod30' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G60_5_C1.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1070:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G60_5_C2.no_factor_mod30' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G60_5_C2.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1165:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G168_42_C0.no_factor_mod84' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C0.no_factor_mod168' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1267:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G168_42_C1.no_factor_mod84' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C1.no_factor_mod168' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C1.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1369:46: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G168_42_C2.no_factor_mod84' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C2.no_factor_mod168' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C2.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1471:45: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G168_42_C3.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C3.transitive_certificate' depends on axioms: [propext, Quot.sound]
+/Volumes/nite-core-1T/workspace/chen-appendixB-tables/lean/BaselineCertificates.lean:1566:45: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [paths]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ChenBaseline.G168_42_C4.no_factor_mod12' depends on axioms: [propext, Quot.sound]
+'ChenBaseline.G168_42_C4.transitive_certificate' depends on axioms: [propext, Quot.sound]
+Axiom audit passed for all 781 ChenBaseline declarations; allowed: [propext, Classical.choice, Quot.sound]

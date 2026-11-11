@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="20">G168_46_c5 ribbon graph: vertex labels give cyclic dart order</text>
+<defs><marker id="arr" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto"><path d="M0 0L5 2.5L0 5" fill="context-stroke"/></marker></defs>
+<path d="M900.0,520.0 Q558.430780618347,621.2050807568878 300.0000000000001,866.4101615137755" fill="none" stroke="purple" stroke-width="1.5"><title>[0, 1]</title></path>
+<path d="M300.0000000000001,866.4101615137755 Q558.430780618347,621.2050807568878 900.0,520.0" fill="none" stroke="purple" stroke-width="1.5"><title>[2, 4]</title></path>
+<path d="M900.0,520.0 Q641.5692193816529,274.7949192431123 299.99999999999983,173.58983848622466" fill="none" stroke="purple" stroke-width="1.5"><title>[3, 5]</title></path>
+<path d="M299.99999999999983,173.58983848622466 Q216.8615612366939,520.0000000000001 300.0000000000001,866.4101615137755" fill="none" stroke="purple" stroke-width="1.5"><title>[6, 7]</title></path>
+<path d="M299.99999999999983,173.58983848622466 L275.9999999999998,132.0206191045716" stroke="gray"/><rect x="272.9999999999998" y="129.0206191045716" width="6" height="6" fill="gray"/>
+<circle cx="900.0" cy="520.0" r="4" fill="indigo"/><text x="940.0" y="520.0" text-anchor="middle" font-size="12">(0, 3, 4)</text>
+<circle cx="300.0000000000001" cy="866.4101615137755" r="4" fill="indigo"/><text x="280.0000000000001" y="901.0511776651531" text-anchor="middle" font-size="12">(1, 2, 7)</text>
+<circle cx="299.99999999999983" cy="173.58983848622466" r="4" fill="indigo"/><text x="279.9999999999998" y="138.94882233484708" text-anchor="middle" font-size="12">(5, 6, 8)</text>
+</svg>

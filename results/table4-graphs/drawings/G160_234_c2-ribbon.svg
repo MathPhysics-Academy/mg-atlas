@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="20">G160_234_c2 ribbon graph: vertex labels give cyclic dart order</text>
+<defs><marker id="arr" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto"><path d="M0 0L5 2.5L0 5" fill="context-stroke"/></marker></defs>
+<path d="M900.0,520.0 Q716.1526860928221,677.0441189890282 623.606797749979,900.4226065180615" fill="none" stroke="purple" stroke-width="1.5"><title>[0, 1]</title></path>
+<path d="M623.606797749979,900.4226065180615 Q716.1526860928221,677.0441189890282 900.0,520.0" fill="none" stroke="purple" stroke-width="1.5"><title>[2, 4]</title></path>
+<path d="M900.0,520.0 Q509.9829090149719,550.7242347284971 176.3932022500211,755.1141009169893" fill="none" stroke="purple" stroke-width="1.5"><title>[3, 5]</title></path>
+<path d="M176.3932022500211,755.1141009169893 Q232.82058647009848,520.0 176.39320225002103,284.8858990830108" fill="none" stroke="purple" stroke-width="1.5"><title>[6, 8]</title></path>
+<path d="M623.606797749979,900.4226065180615 Q714.9082233143138,520.0 623.6067977499789,139.57739348193854" fill="none" stroke="purple" stroke-width="1.5"><title>[7, 10]</title></path>
+<path d="M176.39320225002103,284.8858990830108 Q417.43702067212865,265.8972777424696 623.6067977499789,139.57739348193854" fill="none" stroke="purple" stroke-width="1.5"><title>[9, 13]</title></path>
+<path d="M623.6067977499789,139.57739348193854 Q326.1355951077939,393.680115739469 176.3932022500211,755.1141009169893" fill="none" stroke="purple" stroke-width="1.5"><title>[11, 12]</title></path>
+<path d="M176.39320225002103,284.8858990830108 L137.56038652002354,256.6722069729721" stroke="gray"/><rect x="134.56038652002354" y="253.6722069729721" width="6" height="6" fill="gray"/>
+<circle cx="900.0" cy="520.0" r="4" fill="indigo"/><text x="940.0" y="520.0" text-anchor="middle" font-size="12">(0, 3, 4)</text>
+<circle cx="623.606797749979" cy="900.4226065180615" r="4" fill="indigo"/><text x="635.967477524977" y="938.4648671698676" text-anchor="middle" font-size="12">(1, 2, 7)</text>
+<circle cx="176.3932022500211" cy="755.1141009169893" r="4" fill="indigo"/><text x="144.03252247502314" y="778.6255110086882" text-anchor="middle" font-size="12">(5, 6, 12)</text>
+<circle cx="176.39320225002103" cy="284.8858990830108" r="4" fill="indigo"/><text x="144.0325224750231" y="261.37448899131186" text-anchor="middle" font-size="12">(8, 9, 14)</text>
+<circle cx="623.6067977499789" cy="139.57739348193854" r="4" fill="indigo"/><text x="635.9674775249769" y="101.53513283013234" text-anchor="middle" font-size="12">(10, 11, 13)</text>
+</svg>

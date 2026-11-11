@@ -1,0 +1,154 @@
+{
+  "lean_checked_groups": [
+    "A7",
+    "PSL(2,13)",
+    "PSL(2,17)"
+  ],
+  "lean_checked_components": 56,
+  "complete": true,
+  "groups": [
+    {
+      "group": "A5",
+      "components": 3,
+      "gap_runtime_ms": 2,
+      "max_psl_degree": 18
+    },
+    {
+      "group": "PSL(2,7)",
+      "components": 5,
+      "gap_runtime_ms": 3,
+      "max_psl_degree": 18
+    },
+    {
+      "group": "A6",
+      "components": 10,
+      "gap_runtime_ms": 9,
+      "max_psl_degree": 24
+    },
+    {
+      "group": "PSL(2,8)",
+      "components": 7,
+      "gap_runtime_ms": 20,
+      "max_psl_degree": 70
+    },
+    {
+      "group": "PSL(2,11)",
+      "components": 10,
+      "gap_runtime_ms": 15,
+      "max_psl_degree": 40
+    },
+    {
+      "group": "PSL(2,13)",
+      "components": 13,
+      "gap_runtime_ms": 36,
+      "max_psl_degree": 108
+    },
+    {
+      "group": "PSL(2,17)",
+      "components": 17,
+      "gap_runtime_ms": 150,
+      "max_psl_degree": 176
+    },
+    {
+      "group": "A7",
+      "components": 26,
+      "gap_runtime_ms": 39,
+      "max_psl_degree": 72
+    },
+    {
+      "group": "PSL(2,19)",
+      "components": 19,
+      "gap_runtime_ms": 95,
+      "max_psl_degree": 162
+    },
+    {
+      "group": "PSL(2,16)",
+      "components": 15,
+      "gap_runtime_ms": 181,
+      "max_psl_degree": 270
+    },
+    {
+      "group": "PSL(3,3)",
+      "components": 15,
+      "gap_runtime_ms": 116,
+      "max_psl_degree": 360
+    },
+    {
+      "group": "PSU(3,3)",
+      "components": 13,
+      "gap_runtime_ms": 134,
+      "max_psl_degree": 350
+    },
+    {
+      "group": "PSL(2,23)",
+      "components": 23,
+      "gap_runtime_ms": 174,
+      "max_psl_degree": 242
+    },
+    {
+      "group": "PSL(2,25)",
+      "components": 25,
+      "gap_runtime_ms": 273,
+      "max_psl_degree": 360
+    },
+    {
+      "group": "M11",
+      "components": 12,
+      "gap_runtime_ms": 171,
+      "max_psl_degree": 690
+    },
+    {
+      "group": "PSL(2,27)",
+      "components": 27,
+      "gap_runtime_ms": 293,
+      "max_psl_degree": 338
+    },
+    {
+      "group": "PSL(2,29)",
+      "components": 29,
+      "gap_runtime_ms": 411,
+      "max_psl_degree": 476
+    },
+    {
+      "group": "PSL(2,31)",
+      "components": 31,
+      "gap_runtime_ms": 466,
+      "max_psl_degree": 450
+    },
+    {
+      "group": "A8",
+      "components": 26,
+      "gap_runtime_ms": 418,
+      "max_psl_degree": 768
+    },
+    {
+      "group": "PSL(3,4)",
+      "components": 205,
+      "gap_runtime_ms": 404,
+      "max_psl_degree": 108
+    },
+    {
+      "group": "PSL(2,37)",
+      "components": 37,
+      "gap_runtime_ms": 912,
+      "max_psl_degree": 756
+    },
+    {
+      "group": "PSp(4,3)",
+      "components": 42,
+      "gap_runtime_ms": 644,
+      "max_psl_degree": 1320
+    },
+    {
+      "group": "Sz(8)",
+      "components": 42,
+      "gap_runtime_ms": 837,
+      "max_psl_degree": 768
+    }
+  ],
+  "components": 652,
+  "process_wall_seconds": 8.843,
+  "exit_code": 0,
+  "lean_checked": false,
+  "timing_scope": "Each component timing includes two Farey calls: JSON export and graph/invariant comparison."
+}

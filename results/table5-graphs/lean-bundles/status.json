@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "checked_components": 56,
+  "selected_components": 56,
+  "checked_files": 3,
+  "selected_files": 3,
+  "wall_seconds": 378.42,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "results": [
+    {
+      "name": "PSL_2_13",
+      "group": "PSL(2,13)",
+      "components": 13,
+      "obstructions": 19,
+      "max_degree": 108,
+      "source": "lean/table5-bundles/PSL_2_13.lean",
+      "passed": true,
+      "exit_code": 0,
+      "source_sha256": "291972636b6864304e6b994ad9b0d2d789219d815c59b29b0df0c72c656ce358",
+      "wall_seconds": 76.673
+    },
+    {
+      "name": "PSL_2_17",
+      "group": "PSL(2,17)",
+      "components": 17,
+      "obstructions": 25,
+      "max_degree": 176,
+      "source": "lean/table5-bundles/PSL_2_17.lean",
+      "passed": true,
+      "exit_code": 0,
+      "source_sha256": "c50fa9c3b9d879975cbef333bc45e5fe8017d1d4d56838804f2eb8d888b0436c",
+      "wall_seconds": 378.403
+    },
+    {
+      "name": "A7",
+      "group": "A7",
+      "components": 26,
+      "obstructions": 48,
+      "max_degree": 144,
+      "source": "lean/table5-bundles/A7.lean",
+      "passed": true,
+      "exit_code": 0,
+      "source_sha256": "5eca9cc6cced65cddaddf4dbbc8352e4b6bfad49858e967b6a8b407bfb35aa7e",
+      "wall_seconds": 251.026
+    }
+  ]
+}

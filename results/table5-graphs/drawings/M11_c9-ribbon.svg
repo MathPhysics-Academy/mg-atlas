@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="20">M11_c9 ribbon graph: vertex labels give cyclic dart order</text>
+<defs><marker id="arr" markerWidth="5" markerHeight="5" refX="5" refY="2.5" orient="auto"><path d="M0 0L5 2.5L0 5" fill="context-stroke"/></marker></defs>
+<path d="M900.0,520.0 Q842.2999473283676,620.5083330670162 836.5014131324724,736.256326982239" fill="none" stroke="purple" stroke-width="1.5"><title>[0, 1]</title></path>
+<path d="M836.5014131324724,736.256326982239 Q733.6221326274654,789.6143136102171 666.1660052007546,883.8527981418074" fill="none" stroke="purple" stroke-width="1.5"><title>[2, 4]</title></path>
+<path d="M900.0,520.0 Q624.0256031350583,663.1331761390688 443.074064690686,915.9285767523731" fill="none" stroke="purple" stroke-width="1.5"><title>[3, 6]</title></path>
+<path d="M666.1660052007546,883.8527981418074 Q459.49721201933284,801.7030780882911 238.055706421886,822.2998297417034" fill="none" stroke="purple" stroke-width="1.5"><title>[5, 9]</title></path>
+<path d="M443.074064690686,915.9285767523731 Q313.6267041043397,735.0862492480942 116.20281055420105,632.6930227365718" fill="none" stroke="purple" stroke-width="1.5"><title>[7, 12]</title></path>
+<path d="M836.5014131324724,736.256326982239 Q515.826033809594,485.34581981344104 116.202810554201,407.3069772634282" fill="none" stroke="purple" stroke-width="1.5"><title>[8, 14]</title></path>
+<path d="M238.055706421886,822.2998297417034 Q605.3038327799475,750.5832301002254 900.0,520.0" fill="none" stroke="purple" stroke-width="1.5"><title>[10, 11]</title></path>
+<path d="M116.20281055420105,632.6930227365718 Q226.9284007854365,439.8189440015564 238.05570642188593,217.70017025829674" fill="none" stroke="purple" stroke-width="1.5"><title>[13, 19]</title></path>
+<path d="M116.202810554201,407.3069772634282 Q313.62670410433964,304.91375075190575 443.0740646906859,124.07142324762691" fill="none" stroke="purple" stroke-width="1.5"><title>[15, 21]</title></path>
+<path d="M666.1660052007546,883.8527981418074 Q753.4906767547883,520.0 666.1660052007544,156.1472018581926" fill="none" stroke="purple" stroke-width="1.5"><title>[16, 23]</title></path>
+<path d="M238.055706421886,822.2998297417034 Q532.0491711573416,540.5967516534122 666.1660052007544,156.1472018581926" fill="none" stroke="purple" stroke-width="1.5"><title>[17, 24]</title></path>
+<path d="M443.074064690686,915.9285767523731 Q713.2499273597327,657.0474066980814 836.5014131324724,303.743673017761" fill="none" stroke="purple" stroke-width="1.5"><title>[18, 26]</title></path>
+<path d="M238.05570642188593,217.70017025829674 Q154.37644164742767,297.88122625674026 116.202810554201,407.3069772634282" fill="none" stroke="purple" stroke-width="1.5"><title>[20, 29]</title></path>
+<path d="M443.0740646906859,124.07142324762691 Q550.7709415124523,166.88034541411798 666.1660052007544,156.1472018581926" fill="none" stroke="purple" stroke-width="1.5"><title>[22, 25]</title></path>
+<path d="M836.5014131324724,303.743673017761 Q436.8781898770794,381.7825155677739 116.20281055420105,632.6930227365718" fill="none" stroke="purple" stroke-width="1.5"><title>[27, 28]</title></path>
+<path d="M443.0740646906859,124.07142324762691 Q618.227068939163,261.11882994570834 836.5014131324724,303.743673017761" fill="none" stroke="purple" stroke-width="1.5"><title>[30, 31]</title></path>
+<path d="M238.05570642188593,217.70017025829674 L206.62239119251223,181.4241906892923" stroke="gray"/><rect x="203.62239119251223" y="178.4241906892923" width="6" height="6" fill="gray"/>
+<circle cx="900.0" cy="520.0" r="4" fill="indigo"/><text x="940.0" y="520.0" text-anchor="middle" font-size="12">(0, 3, 11)</text>
+<circle cx="836.5014131324724" cy="736.256326982239" r="4" fill="indigo"/><text x="870.1515544457197" y="757.8819596804628" text-anchor="middle" font-size="12">(1, 2, 8)</text>
+<circle cx="666.1660052007546" cy="883.8527981418074" r="4" fill="indigo"/><text x="682.7826057208301" y="920.2380779559882" text-anchor="middle" font-size="12">(4, 5, 16)</text>
+<circle cx="443.074064690686" cy="915.9285767523731" r="4" fill="indigo"/><text x="437.3814711597546" y="955.5214344276105" text-anchor="middle" font-size="12">(6, 7, 18)</text>
+<circle cx="238.055706421886" cy="822.2998297417034" r="4" fill="indigo"/><text x="211.86127706407456" y="852.5298127158737" text-anchor="middle" font-size="12">(9, 10, 17)</text>
+<circle cx="116.20281055420105" cy="632.6930227365718" r="4" fill="indigo"/><text x="77.82309160962114" y="643.962325010229" text-anchor="middle" font-size="12">(12, 13, 28)</text>
+<circle cx="116.202810554201" cy="407.3069772634282" r="4" fill="indigo"/><text x="77.82309160962109" y="396.03767498977106" text-anchor="middle" font-size="12">(14, 15, 29)</text>
+<circle cx="238.05570642188593" cy="217.70017025829674" r="4" fill="indigo"/><text x="211.8612770640745" y="187.47018728412638" text-anchor="middle" font-size="12">(19, 20, 32)</text>
+<circle cx="443.0740646906859" cy="124.07142324762691" r="4" fill="indigo"/><text x="437.3814711597545" y="84.47856557238958" text-anchor="middle" font-size="12">(21, 22, 30)</text>
+<circle cx="666.1660052007544" cy="156.1472018581926" r="4" fill="indigo"/><text x="682.7826057208299" y="119.76192204401184" text-anchor="middle" font-size="12">(23, 24, 25)</text>
+<circle cx="836.5014131324724" cy="303.743673017761" r="4" fill="indigo"/><text x="870.1515544457197" y="282.1180403195371" text-anchor="middle" font-size="12">(26, 27, 31)</text>
+</svg>

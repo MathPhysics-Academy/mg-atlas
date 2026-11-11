@@ -1,0 +1,178 @@
+{
+  "group": "A5",
+  "order": 60,
+  "pairs": 38,
+  "ms": 21,
+  "rows": [
+    {
+      "m": 2,
+      "d": 10,
+      "c4": 0,
+      "c6": 1,
+      "cm1": 1,
+      "widths": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "genus": "0",
+      "cong": false,
+      "level": 30,
+      "es": [
+        5,
+        5
+      ]
+    },
+    {
+      "m": 1,
+      "d": 18,
+      "c4": 0,
+      "c6": 0,
+      "cm1": 1,
+      "widths": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "genus": "0",
+      "cong": false,
+      "level": 30,
+      "es": [
+        3
+      ]
+    }
+  ],
+  "components": [
+    {
+      "S": [
+        1,
+        0,
+        4,
+        6,
+        2,
+        9,
+        3,
+        8,
+        7,
+        5,
+        12,
+        14,
+        10,
+        16,
+        11,
+        17,
+        13,
+        15
+      ],
+      "T": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        0,
+        9,
+        1,
+        10,
+        11,
+        13,
+        15,
+        6,
+        14,
+        4,
+        12,
+        17,
+        16
+      ],
+      "e": 3
+    },
+    {
+      "S": [
+        1,
+        0,
+        4,
+        6,
+        2,
+        7,
+        3,
+        5,
+        9,
+        8
+      ],
+      "T": [
+        2,
+        3,
+        5,
+        1,
+        6,
+        0,
+        7,
+        8,
+        9,
+        4
+      ],
+      "e": 5
+    },
+    {
+      "S": [
+        1,
+        0,
+        4,
+        6,
+        2,
+        7,
+        3,
+        5,
+        9,
+        8
+      ],
+      "T": [
+        2,
+        3,
+        5,
+        1,
+        6,
+        0,
+        7,
+        8,
+        9,
+        4
+      ],
+      "e": 5
+    }
+  ],
+  "table": 5,
+  "k": 1,
+  "provenance": {
+    "sources": [
+      {
+        "path": "results/gap-baseline.jsonl",
+        "sha256": "264db414b536472e0ddd5071fb818f94cad3c42607223a71f1c702a0e84b59a1"
+      },
+      {
+        "path": "results/gap-actions.jsonl",
+        "sha256": "941360cc200afab56fbe07b0bae6fe4bea2696a06f41aa11bfb4ab608f4b5f2f"
+      }
+    ],
+    "timing_scope": "Original GAP table timing only; separate component export time was not recorded.",
+    "original_smallgroup_label": "SmallGroup(60,5)"
+  }
+}

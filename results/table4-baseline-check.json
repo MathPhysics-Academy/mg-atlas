@@ -1,0 +1,14 @@
+{
+  "compiler_exit_code": 0,
+  "sources": {
+    "lean/S4Certificate.lean": "9e96b1e5571d46aa308b56762f6a3a03954a0b7671a3d49e4fb1ef9b500ad829",
+    "lean/BaselineCertificates.lean": "44c6597b9361f3020959e8fa28464d68a5f09df08b8acecaf5d7436a34dbaa73"
+  },
+  "log": "results/table4-baseline-check.log",
+  "seconds": 64.622,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

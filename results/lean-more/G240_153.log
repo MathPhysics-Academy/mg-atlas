@@ -1,0 +1,6 @@
+'ChenMore.partition_from_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChenMore.tableLookup' does not depend on any axioms
+'ChenMore.G240_153_C0.no_factor_mod60' depends on axioms: [propext, Quot.sound]
+'ChenMore.G240_153_C0.no_factor_mod120' depends on axioms: [propext, Quot.sound]
+'ChenMore.G240_153_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+Axiom audit passed for all 180 ChenMore declarations; allowed: [propext, Classical.choice, Quot.sound]

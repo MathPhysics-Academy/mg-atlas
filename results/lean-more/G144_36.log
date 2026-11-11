@@ -1,0 +1,5 @@
+'ChenMore.partition_from_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ChenMore.G144_36_C0.no_factor_mod36' depends on axioms: [propext, Quot.sound]
+'ChenMore.G144_36_C0.no_factor_mod72' depends on axioms: [propext, Quot.sound]
+'ChenMore.G144_36_C0.transitive_certificate' depends on axioms: [propext, Quot.sound]
+Axiom audit passed for all 136 ChenMore declarations; allowed: [propext, Classical.choice, Quot.sound]
