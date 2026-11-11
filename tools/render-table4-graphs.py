@@ -62,7 +62,6 @@ for r in rows:
     g = r['graph']
     f = r['farey']
     n = len(g['S'])
-    (OUT / (name + '.json')).write_text(json.dumps(dict(r, cosetAction=dict(S=src['S'], T=src['T'])), indent=2) + '\n')
     draw_graph(
         name + '-cosets',
         [(src['S'], 'royalblue'), (src['T'], 'darkorange')],
@@ -98,6 +97,6 @@ for r in rows:
         parts.append(f'<circle cx="{x}" cy="{y}" r="4" fill="indigo"/><text x="{500+(x-500)*1.10}" y="{520+(y-520)*1.10}" text-anchor="middle" font-size="{max(3,min(12,800/len(vs)))}">{html.escape(str(tuple(v)))}</text>')
     (D / (name + '-ribbon.svg')).write_text('\n'.join(parts + ['</svg>']))
     lean_link = f' · [Lean](../../lean/farey/{name}.lean)' if args.table == 4 else f' · [Lean bundle](../../{pilots[r["group"]]["bundle"]["source"]})' if r['group'] in pilots else ''
-    index.append(f'| {name} | {len(src["S"])} / {n} | {len(vs)} / {len(g["edges"])} / {len(g["faces"])} | {g["genus"]} | [JSON]({name}.json) · [cosets](drawings/{name}-cosets.svg) · [ribbon](drawings/{name}-ribbon.svg){lean_link} |')
+    index.append(f'| {name} | {len(src["S"])} / {n} | {len(vs)} / {len(g["edges"])} / {len(g["faces"])} | {g["genus"]} | [JSON](exports.json) · [cosets](drawings/{name}-cosets.svg) · [ribbon](drawings/{name}-ribbon.svg){lean_link} |')
 (OUT / 'README.md').write_text('\n'.join(index) + '\n')
-print('Wrote exact JSON and coset/ribbon SVGs for', len(rows), 'components')
+print('Wrote coset/ribbon SVGs for', len(rows), 'components')
