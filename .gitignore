@@ -1,0 +1,30 @@
+# Operating system and editor files
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+
+# Lean build output
+.lake/
+*.olean
+*.ilean
+*.o
+
+# Temporary output and downloadable archives
+*.tmp
+*.part
+*.zip
+/results/**/*.lock
+
+# Superseded previews, staging copies and run snapshots
+/results/graphs/
+/results/table5-batch-staging/
+/results/**/runs/
+/results/table5-batch-staging-*.log
+/results/table5-staging-*.log
